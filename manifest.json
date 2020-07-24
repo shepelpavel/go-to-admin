@@ -5,7 +5,11 @@
   "description": "Fast open admin panels",
 
   "icons": {
-    "48": "icons/ico-48.png"
+    "32": "icons/32.png",
+    "64": "icons/64.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png",
+    "512": "icons/512.png"
   },
 
   "permissions": [
@@ -14,7 +18,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/ico-48.png",
+    "default_icon": "icons/512.png",
     "default_popup": "popup/index.html"
   }
 }
